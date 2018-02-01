@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Scotch.io GuestBook</title>
+    <title>FlightPhysical's Borrowed GuestBook</title>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="{{ mix('css/app.css') }}" rel="stylesheet" type="text/css">
 </head>
@@ -13,7 +13,7 @@
         <nav class="navbar navbar-findcond">
             <div class="container">
                 <div class="navbar-header">
-                    <a class="navbar-brand" href="{{ route('home') }}">GuestBook</a>
+                    <a class="navbar-brand" href="{{ route('home') }}">FP GuestBook</a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbar">
                     <ul class="nav navbar-nav navbar-right">
